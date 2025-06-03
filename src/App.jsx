@@ -1,5 +1,5 @@
 import "./App.css";
-import { Counter, Toggle, Form } from "./components";
+import { Counter, Toggle, Form, Score, ColorPicker, ObjectExample, Product, ArrayExample } from "./components";
 
 const App = () => {
   return <>
@@ -14,6 +14,21 @@ const App = () => {
   </div>
   <div>
     <Form />
+  </div>
+  <div>
+    <Score/>
+  </div>
+  <div>
+    <ColorPicker/>
+  </div>
+  <div>
+    <ObjectExample/>
+  </div>
+  <div>
+    <Product/>
+  </div>
+  <div>
+    <ArrayExample/>
   </div>
   </>;
 };
