@@ -1,5 +1,5 @@
 import "./App.css";
-import { Counter, Toggle, Form, Score, ColorPicker, ObjectExample, Product, ArrayExample, ExampleOne, ExampleTwo, ExampleThree,} from "./components/index";
+import { Counter, Toggle, Form, Score, ColorPicker, ObjectExample, Product, ArrayExample, ExampleOne, ExampleTwo, ExampleThree, TODOLIST, CART, ImageGallery} from "./components/index";
 
 const App = () => {
   return <>
@@ -39,6 +39,15 @@ const App = () => {
   </div>
   <div>
   <ExampleThree/>
+  </div>
+  <div>
+    <TODOLIST/>
+  </div>
+  <div>
+    <CART/>
+  </div>
+  <div>
+    <ImageGallery/>
   </div>
   </>;
 };

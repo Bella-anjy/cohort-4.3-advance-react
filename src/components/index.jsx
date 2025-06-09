@@ -9,6 +9,9 @@ import ArrayExample from "./1-usestate/ArrayExample";
 import ExampleOne from "./2-useeffect/ExampleOne";
 import ExampleTwo from "./2-useeffect/ExampleTwo";
 import ExampleThree from "./2-useeffect/ExampleThree";
+import TODOLIST from "./3-reactpratice/assOne/TODOLIST";
+import CART from "./3-reactpratice/assTwo/CART";
+import ImageGallery from "./3-reactpratice/assThree/imageGallery";
 
 
-export { Counter, Toggle, Form, Score, ColorPicker, ObjectExample, Product, ArrayExample, ExampleOne, ExampleTwo, ExampleThree};
+export { Counter, Toggle, Form, Score, ColorPicker, ObjectExample, Product, ArrayExample, ExampleOne, ExampleTwo, ExampleThree, TODOLIST, CART, ImageGallery,};
