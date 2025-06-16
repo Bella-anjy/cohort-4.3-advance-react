@@ -15,7 +15,7 @@
 
 .imageWrapper img {
   width: 100%;
-  max-height: 400px;
+  max-height: 700px;
   border-radius: 10px;
   object-fit: cover;
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
@@ -27,20 +27,16 @@
   gap: 1rem;
 }
 
-button {
-  padding: 0.5rem 1.2rem;
-  font-size: 1rem;
-  background-color: #4a90e2;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
-
-button:hover {
-  background-color: #357ab8;
-}
+/* button { */
+  /* padding: 0.5rem 1.2rem; */
+  /* font-size: 1rem; */
+  /* background-color: #4a90e2; */
+  /* color: white; */
+  /* border: none; */
+  /* border-radius: 6px; */
+  /* cursor: pointer; */
+  /* transition: background 0.3s ease; */
+/* } */
 
 /* Fullscreen styling */
 .fullscreen {
@@ -61,6 +57,6 @@ button:hover {
 }
 
 .fullscreen img {
-  max-height: 80vh;
-  max-width: 90vw;
+  width: 200%;
+  height: 700%;
 }
