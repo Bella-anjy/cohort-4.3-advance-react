@@ -24,6 +24,9 @@ import {
   ShortCircuitOne,
   ShortCircut,
   TogglePassword,
+  Auth,
+  ControlledInput,
+  MultipleInput,
 } from "./components/index";
 
 const App = () => {
@@ -100,7 +103,7 @@ const App = () => {
         <GetPosts />
       </div>
       <div style={{ marginTop: "60px" }}>
-        <h2 style={{color:"dodgerblue"}}>To Do</h2>
+        <h2 style={{ color: "dodgerblue" }}>To Do</h2>
         <ToDo />
       </div>
       <div>
@@ -113,6 +116,18 @@ const App = () => {
         <h1>Toggle Password</h1>
         <TogglePassword />
       </div>
+      <div>
+        <h1>User Challenge</h1>
+        <Auth />
+      </div>
+      <div>
+        <h1>Controlled Inputs</h1>
+        <ControlledInput />
+      </div>
+      <div>
+        <h1>Multiple Inputs</h1>
+        <MultipleInput />
+        </div>
     </>
   );
 };

@@ -22,6 +22,9 @@ import ToDo from "./3-reactpratice/todo/ToDo";
 import ShortCircuitOne from "./4-conditionalrendering/ShortCircuitOne";
 import ShortCircut from "./4-conditionalrendering/ShortCircut";
 import TogglePassword from "./code-challenge-1/TogglePassword";
+import Auth from "./code-challenge-2/Auth";
+import ControlledInput from "./5-form/Controlled-inputs/ControlledInput";
+import MultipleInput from "./5-form/Controlled-inputs/MultipleInput";
 
 export {
   Counter,
@@ -48,4 +51,7 @@ export {
   ShortCircuitOne,
   ShortCircut,
   TogglePassword,
+  Auth,
+  ControlledInput,
+  MultipleInput,
 };

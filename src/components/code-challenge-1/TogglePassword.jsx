@@ -20,10 +20,23 @@ const TogglePassword = () => {
           </label>
           <input
             type={showPassword ? "text" : "password"}
-            id="password"
-            name="password"
+            
+            style={{
+              position: "relative",
+              // backgroundColor: "red",
+            }}
           />
-          <span style={{ cursor: "pointer", position: "absolute", right: "10px", top: "10px" }}>
+          <span
+            style={{
+              position: "absolute",
+              right: "290px",
+              // left: "100px",
+              // bottom: "-2px",
+              marginTop: "11px",
+              // transform: "translateY(-50%)",
+              cursor: "pointer",
+            }}
+          >
             {showPassword ? (
               <FaRegEyeSlash onClick={showAndHidePassword} />
             ) : (
