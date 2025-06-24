@@ -25,6 +25,8 @@ import TogglePassword from "./code-challenge-1/TogglePassword";
 import Auth from "./code-challenge-2/Auth";
 import ControlledInput from "./5-form/Controlled-inputs/ControlledInput";
 import MultipleInput from "./5-form/Controlled-inputs/MultipleInput";
+import Task from "./3-reactpratice/task/Task"
+import OtherInput from "./5-form/Controlled-inputs/OtherInput";
 
 export {
   Counter,
@@ -54,4 +56,6 @@ export {
   Auth,
   ControlledInput,
   MultipleInput,
+  Task,
+  OtherInput,
 };

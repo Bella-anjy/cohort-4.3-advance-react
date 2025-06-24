@@ -1,0 +1,31 @@
+.taskContainer{
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  justify-content: center;
+  text-align: center;
+
+  
+}
+.form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+input{
+  padding: 10px;
+  border: 1px solid dodgerblue;
+  border-radius: 4px;
+  width: 50%;
+  margin-left: 0.5rem;
+}
+.button{
+  padding: 10px;
+  border: none;
+  border-radius: 2px;
+  /* background-color: dodgerblue; */
+  color: white;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}

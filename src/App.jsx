@@ -27,6 +27,8 @@ import {
   Auth,
   ControlledInput,
   MultipleInput,
+  Task,
+  OtherInput,
 } from "./components/index";
 
 const App = () => {
@@ -127,6 +129,14 @@ const App = () => {
       <div>
         <h1>Multiple Inputs</h1>
         <MultipleInput />
+        </div>
+        <div>
+        <h1>Task</h1>
+        <Task />
+        </div>
+        <div>
+          <h2>Other Input Examples: checkbox and select</h2>
+          <OtherInput />
         </div>
     </>
   );

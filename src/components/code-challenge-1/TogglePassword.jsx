@@ -29,7 +29,7 @@ const TogglePassword = () => {
           <span
             style={{
               position: "absolute",
-              right: "290px",
+              right: "340px",
               // left: "100px",
               // bottom: "-2px",
               marginTop: "11px",
